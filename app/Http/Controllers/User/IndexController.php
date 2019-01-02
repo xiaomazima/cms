@@ -51,4 +51,7 @@ class IndexController extends Controller{
         ];
         return view('user.index',$data);
     }
+    public function sd(){
+        
+    }
 }
