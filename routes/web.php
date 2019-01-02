@@ -22,3 +22,9 @@ Route::get('/user', function () {
 Route::get('/index', 'IndexController@index');
 
 Route::get('/User', 'User\IndexController@index');
+
+Route::get('/userAdd', 'User\IndexController@userAdd');
+Route::get('/userDel', 'User\IndexController@userDel');
+Route::get('/userUpdate', 'User\IndexController@userUpdate');
+Route::get('/userSelect', 'User\IndexController@userSelect');
+Route::get('/userList', 'User\IndexController@userList');
