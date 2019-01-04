@@ -7,4 +7,9 @@ use Illuminate\Http\Request;
 class AddController extends Controller
 {
     //
+
+    function add
+    (){
+        
+    }
 }
