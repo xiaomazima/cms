@@ -10,6 +10,6 @@ class AddController extends Controller
 
     function add
     (){
-        
+        12;
     }
 }
